@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".ui.index.MainActivity">
+  <item
+    android:id="@+id/bottom_tab_query"
+    android:icon="@android:drawable/ic_menu_send"
+    android:title="@string/query" />
+  <item
+    android:id="@+id/bottom_tab_grab_ticket"
+    android:icon="@android:drawable/ic_menu_call"
+    android:title="@string/grab_ticket" />
+  <item
+    android:id="@+id/bottom_tab_service"
+    android:icon="@android:drawable/ic_menu_directions"
+    android:title="@string/service" />
+  <item
+    android:id="@+id/bottom_tab_mine"
+    android:icon="@android:drawable/ic_menu_more"
+    android:title="@string/mine" />
+</menu>

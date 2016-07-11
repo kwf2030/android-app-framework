@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="CalendarView">
+    <attr name="dayTextSize" format="dimension" />
+    <attr name="todayTextSize" format="dimension" />
+    <attr name="weekTextSize" format="dimension" />
+    <attr name="monthTextSize" format="dimension" />
+    <attr name="text1TextSize" format="dimension" />
+    <attr name="text2TextSize" format="dimension" />
+
+    <attr name="dayTextColor" format="color" />
+    <attr name="todayTextColor" format="color" />
+    <attr name="weekTextColor" format="color" />
+    <attr name="monthTextColor" format="color" />
+    <attr name="text1TextColor" format="color" />
+    <attr name="text2TextColor" format="color" />
+
+    <attr name="dayBackgroundColor" format="color" />
+    <attr name="todayBackgroundColor" format="color" />
+    <attr name="weekBackgroundColor" format="color" />
+    <attr name="monthBackgroundColor" format="color" />
+    <attr name="text1BackgroundColor" format="color" />
+    <attr name="text2BackgroundColor" format="color" />
+
+    <attr name="disabledTextColor" format="color" />
+    <attr name="selectedBackgroundColor" format="color" />
+  </declare-styleable>
+</resources>

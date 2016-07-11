@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="10dp"
+  android:orientation="vertical">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <TextView
+        android:text="08:20"
+        style="@style/FlightListItemText.PrimaryText"
+        android:id="@+id/start_time" />
+
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+          android:text="禄口机场"
+          style="@style/FlightListItemText.SecondaryText"
+          android:id="@+id/start_airport" />
+
+        <TextView
+          android:text="T2"
+          style="@style/FlightListItemText.SecondaryText"
+          android:id="@+id/start_terminal" />
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <ImageView
+        android:id="@+id/one_way_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+      <ImageView
+        android:id="@+id/return_way_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_centerHorizontal="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <TextView
+        android:text="08:20"
+        style="@style/FlightListItemText.PrimaryText"
+        android:id="@+id/arrival_time" />
+
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+          android:text="首都机场"
+          style="@style/FlightListItemText.SecondaryText"
+          android:id="@+id/arrival_airport" />
+
+        <TextView
+          android:text="T2"
+          style="@style/FlightListItemText.SecondaryText"
+          android:id="@+id/arrival_terminal" />
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_gravity="end">
+
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+          android:text="￥"
+          style="@style/FlightListItemText.PrimaryText"
+          android:textColor="@color/deepOrange500"
+          android:textSize="18sp" />
+
+        <TextView
+          android:text="1099"
+          style="@style/FlightListItemText.PrimaryText"
+          android:id="@+id/price"
+          android:textColor="@color/deepOrange500" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+          android:text="经济舱"
+          style="@style/FlightListItemText.SecondaryText"
+          android:id="@+id/airclass" />
+
+        <TextView
+          android:text="7.6折"
+          style="@style/FlightListItemText.SecondaryText"
+          android:layout_marginStart="4dp"
+          android:layout_marginLeft="4dp"
+          android:id="@+id/discount" />
+      </LinearLayout>
+
+    </LinearLayout>
+  </RelativeLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+      android:text="中国东方航空"
+      style="@style/FlightListItemText.SecondaryText"
+      android:id="@+id/aircompany" />
+
+    <TextView
+      android:text="MU2811 | 320（中）"
+      style="@style/FlightListItemText.SecondaryText"
+      android:id="@+id/flight_no" />
+  </LinearLayout>
+
+</LinearLayout>

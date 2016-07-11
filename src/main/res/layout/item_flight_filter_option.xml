@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:padding="12dp"
+  android:gravity="center_vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <ImageView
+    android:id="@+id/flight_list_filter_img"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@drawable/ic_menu_camera"/>
+
+  <TextView
+    android:id="@+id/flight_list_filter_text"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:textSize="16sp"
+    android:background="@color/white"
+    android:textColor="#6F6F6F"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="4"
+    android:text="@string/takeoff_period" />
+
+  <android.support.v7.widget.AppCompatCheckBox
+    android:id="@+id/flight_list_filter_checkbox"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content" />
+</LinearLayout>
